@@ -7,6 +7,10 @@ public class User {
     private Integer id;
     private String name;
     private Date birthDate;
+
+    protected User(){
+
+    }
     
     public User(Integer id, String name, Date birthDate) {
         super();
@@ -14,6 +18,12 @@ public class User {
         this.name = name;
         this.birthDate = birthDate;
     }
+
+    /*public User( String name, Date birthDate) {
+        super();
+        this.name = name;
+        this.birthDate = birthDate;
+    }*/
 
     public Integer getId() {
         return id;
