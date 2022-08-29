@@ -55,7 +55,6 @@ public class UserDaoService {
                 iterator.remove();
                 return user;
             }
-
         }
 
         return null;
